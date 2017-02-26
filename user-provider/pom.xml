@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ran.user</groupId>
-	<artifactId>user-provider</artifactId>
+	<artifactId>ran-user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>user-provider</name>
+	<name>ran-user</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
