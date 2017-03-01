@@ -1,4 +1,14 @@
 server:
   port: 8082
 user: 
-  userServerPath: http://127.0.0.1:8081/user/  
+  userServerPath: http://127.0.0.1:8081/user/
+  
+spring:
+  application:
+    name: ran-movie
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@127.0.0.1:8761/eureka
+  instance:
+    prefer-ip-address: true

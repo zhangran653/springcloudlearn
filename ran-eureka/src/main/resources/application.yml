@@ -1,3 +1,9 @@
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123
 server:
   port: 8761
 eureka:
@@ -5,4 +11,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url: 
-      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://user:password123@127.0.0.1:8761/eureka
