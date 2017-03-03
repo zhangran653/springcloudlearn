@@ -20,6 +20,6 @@ public class MovieController {
 
 	@GetMapping("/movie/user/{id}")
 	private User getUser(@PathVariable int id) {
-		return restTemplate.getForObject(userServerPath + id, User.class);
+		return restTemplate.getForObject("http://ran-user/user/" + id, User.class);
 	}
 }
